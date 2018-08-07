@@ -2,6 +2,9 @@ use_frameworks!
 
 target 'WYYKVO_Example' do
   pod 'WYYKVO', :path => '../'
+  
+  pod 'AFNetworking'
+  
 
   target 'WYYKVO_Tests' do
     inherit! :search_paths

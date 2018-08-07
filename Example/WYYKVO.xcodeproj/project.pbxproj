@@ -24,6 +24,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AFD61F5F1F4371BEAA9FD4E9 /* Pods_WYYKVO_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3BCCED5ED5DDC23F4D8014 /* Pods_WYYKVO_Tests.framework */; };
+		B0D4028121199F8E00594294 /* WYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D4027F21199F8D00594294 /* WYWebViewController.m */; };
+		B0D4028221199F8E00594294 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D4028021199F8E00594294 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		101377BE6BD69F44791D2E42 /* Pods-WYYKVO_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYYKVO_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYYKVO_Example/Pods-WYYKVO_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		25F8FC2C01AC53B8AA136C3B /* WYYKVO.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WYYKVO.podspec; path = ../WYYKVO.podspec; sourceTree = "<group>"; };
+		25F8FC2C01AC53B8AA136C3B /* WYYKVO.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WYYKVO.podspec; path = ../WYYKVO.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WYYKVO_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYYKVO_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,9 +65,13 @@
 		855BD3D6071F6480F4FF27EF /* Pods-WYYKVO_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYYKVO_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYYKVO_Example/Pods-WYYKVO_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F5FDB6D924ED371530A05D6 /* Pods_WYYKVO_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYYKVO_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD601AAB5B9581AD71C4BDED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B0D4027D21199F8D00594294 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B0D4027E21199F8D00594294 /* WYWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWebViewController.h; sourceTree = "<group>"; };
+		B0D4027F21199F8D00594294 /* WYWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWebViewController.m; sourceTree = "<group>"; };
+		B0D4028021199F8E00594294 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		BD601AAB5B9581AD71C4BDED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CA65E99FAB8B1006BB53A47C /* Pods-WYYKVO_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYYKVO_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYYKVO_Tests/Pods-WYYKVO_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DD2F15E50E01268F7E11904C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DD2F15E50E01268F7E11904C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E38C8BAC384D7A8BF7699484 /* Pods-WYYKVO_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYYKVO_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYYKVO_Tests/Pods-WYYKVO_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +154,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* WYYViewController.h */,
 				6003F5A6195388D20070C39A /* WYYViewController.m */,
+				B0D4027D21199F8D00594294 /* Person.h */,
+				B0D4028021199F8E00594294 /* Person.m */,
+				B0D4027E21199F8D00594294 /* WYWebViewController.h */,
+				B0D4027F21199F8D00594294 /* WYWebViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -319,10 +329,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WYYKVO_Example/Pods-WYYKVO_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/WYYKVO/WYYKVO.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WYYKVO.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +368,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* WYYAppDelegate.m in Sources */,
+				B0D4028121199F8E00594294 /* WYWebViewController.m in Sources */,
+				B0D4028221199F8E00594294 /* Person.m in Sources */,
 				6003F5A7195388D20070C39A /* WYYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
