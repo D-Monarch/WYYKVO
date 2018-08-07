@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WYYKVO_Example' do
+  pod 'WYYKVO', :path => '../'
+
+  target 'WYYKVO_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
