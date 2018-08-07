@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/youyouwang/WYYKVO/tree/v0.1.0'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wangyaoyao' => 'wangyaoyao@163.com' }
+  s.author           = { 'wangyaoyao' => 'htu_wang@163.com' }
   s.source           = { :git => 'https://github.com/youyouwang/WYYKVO.git', :tag => 'v0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
