@@ -40,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		101377BE6BD69F44791D2E42 /* Pods-WYYKVO_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYYKVO_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYYKVO_Example/Pods-WYYKVO_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		25F8FC2C01AC53B8AA136C3B /* WYYKVO.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WYYKVO.podspec; path = ../WYYKVO.podspec; sourceTree = "<group>"; };
+		25F8FC2C01AC53B8AA136C3B /* WYYKVO.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WYYKVO.podspec; path = ../WYYKVO.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* WYYKVO_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYYKVO_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
