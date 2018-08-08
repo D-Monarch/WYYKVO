@@ -26,7 +26,7 @@ s.homepage         = 'https://github.com/youyouwang/WYYKVO'
 
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wangyaoyao' => 'wangyaoyao@163.com' }
+  s.author           = { 'CoderWYY' => 'htu_wang@163.com' }
   
   
   #s.source           = { :git => 'https://github.com/youyouwang/WYYKVO.git', :commit => "68defea" }
@@ -43,7 +43,7 @@ s.homepage         = 'https://github.com/youyouwang/WYYKVO'
   #   'WYYKVO' => ['WYYKVO/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+#s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
