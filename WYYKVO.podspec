@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WYYKVO'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A custom kvo for ios'
 
 # This description is used to generate tags and improve search results.
