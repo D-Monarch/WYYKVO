@@ -10,7 +10,6 @@
 #import "NSObject+WYKVO.h"
 #import "WYWebViewController.h"
 #import "Person.h"
-
 @interface WYYViewController ()
 @property (nonatomic, strong) Person *person;
 

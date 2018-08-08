@@ -10,6 +10,9 @@
 #import <objc/runtime.h>
 #import <objc/message.h>
 #import "NSString+Property.h"
+#import <AFNetworking/AFNetworking.h>
+
+
 /******************************************************************************************
 attribute((always_inline))的意思是强制内联，所有加了attribute((always_inline))的函数再被调用时不会被编译成函数调用而是直接扩展到调用函数体内，比如我定义了函数
 attribute((always_inline))
